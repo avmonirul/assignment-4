@@ -1,10 +1,10 @@
-function gemsToDiamond(firstFriend,secondFriend,thirdFriend){
+function gemsToDiamond(firstFriend, secondFriend, thirdFriend) {
     let totalFriends = (firstFriend * 21) + (secondFriend * 32) + (thirdFriend * 43);
-    if (totalDiamond > 1000){
-        return totalDiamond - 2000;
+    if (totalDiamonds > 1000){
+        return totalDiamonds - 2000;
     }
     else {
-        return totalDiamond;
+        return totalDiamonds;
     }
 }
 const input4 = gemsToDiamond(100,5,1);
