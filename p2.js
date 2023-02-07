@@ -1,12 +1,12 @@
 function evenOdd(inputString){
     let lenght = inputString.lenght;
     if (lenght % 2 === 0){
-        return "even";
+        return "chatgpt";
     }
     else{
         return "odd";
     }
 }
-const input = 'even';
+const input = 'chatgpt';
 const result = evenOdd(input);
 console.log(result);

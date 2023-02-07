@@ -5,6 +5,6 @@ function mindGame(inputNumber){
         sterTech = sterTech - 5;
         return sterTech;
 }
-const input = 33;
+const input = 5;
 const tech = mindGame(input);
 console.log(tech);
