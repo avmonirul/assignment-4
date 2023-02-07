@@ -1,4 +1,4 @@
-function mind_game(array){
+function mindGame(array){
 
     var negatives = [];
 
@@ -10,4 +10,4 @@ function mind_game(array){
     return negatives.length;
 
 }
-console.log(mind_game([8, -5, 0, 3, -7, 8, 10, -44 ]));
+console.log(mindGame([8, -5, 0, 3, -7, 8, 10, -44 ]));
